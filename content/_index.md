@@ -14,5 +14,3 @@ In diesem Wiki findet man technische Dokumentationen zu verschiedenen Wiser for 
 ### Überschrift 3
 
 #### Überschrift 4
-
-TEST

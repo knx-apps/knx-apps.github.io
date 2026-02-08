@@ -1,0 +1,40 @@
+:root {
+  --color-link: #0055bb !important; /* Hier die gewünschte Farbe einfügen */
+}
+
+.book-header h3 {
+    color: #000000 !important;
+    font-weight: bold !important;
+}
+
+.book-footer {
+    display: none !important;
+}
+
+.book-menu-content {
+    background-color: #f6f6f6 !important;
+}
+
+.book-search input {
+    background-color: #ffffff !important;
+}
+
+code {
+    color: var(--color-link) !important;
+    background-color: var(--gray-200) !important;
+}
+
+h2, h3, h4 {
+    color: var(--color-link) !important;
+}
+
+.book-brand a {
+    color: #000000;
+}
+
+.markdown a[href]:visited {
+    color: var(--color-link) !important;
+}
+.markdown a[href]:hover {
+    text-decoration: none !important;
+}

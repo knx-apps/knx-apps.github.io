@@ -1,0 +1,10 @@
+git clone <url>
+
+git status
+
+
+git pull
+
+git add .
+git commit -m "Beschreibung"
+git push
