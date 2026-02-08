@@ -1,0 +1,13 @@
+baseURL = 'https://knx-apps.github.io/'
+languageCode = 'en-us'
+title = 'Wiser for KNX Apps'
+theme = "hugo-book"
+
+[params]
+  BookSection = "/"
+  
+[markup]
+  [markup.highlight]
+    style = "emacs"  # pygments emacs
+    lineNos = true
+    noClasses = true
