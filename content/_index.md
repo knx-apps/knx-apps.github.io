@@ -1,5 +1,5 @@
 ---
-title: "Willkommen"
+title: "Wiser for KNX Apps Wiki"
 type: docs
 ---
 # Wiser for KNX Apps Wiki
