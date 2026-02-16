@@ -8,11 +8,11 @@ bookCollapseSection: false
 # Dashboards
 
 ## Dashboard hinzufügen
-1. Um ein Dashboard zu erstellen, gehen Sie zum Dashboard-Bereich und klicken Sie unten links auf die Schaltfläche „Dashboard hinzufügen“ (![1](../1.png)).
+1. Um ein Dashboard zu erstellen, gehen Sie zum Dashboard-Bereich und klicken Sie unten links auf die Schaltfläche "**Add Dashboard**" (![1](../1.png)).
 
 {{< image src="add-dashboard.png" alt="Dashboard hinzufügen" title="Dashboard hinzufügen" >}}
 
-2. Geben Sie im Dialogfeld einen Namen für das Dashboard ein, das Sie erstellen möchten (![1](../1.png)), und klicken Sie auf die Schaltfläche **Dashboard hinzufügen** (![2](../2.png)).
+2. Geben Sie im Dialogfeld einen Namen für das Dashboard ein, das Sie erstellen möchten (![1](../1.png)), und klicken Sie auf die Schaltfläche "**Add Dashboard**" (![2](../2.png)).
 
 {{< image src="add-new-dashboard.png" alt="Dashboard hinzufügen" title="Dashboard hinzufügen" >}}
 
@@ -118,7 +118,9 @@ Für jedes Widget können Sie wählen, ob Sie ein [**Chart**](/dashboard/charts/
 Wenn **URL** als Inhaltstyp ausgewählt ist, wird anstelle eines zweiten Auswahlfeldes die folgende Oberfläche angezeigt. In das Textfeld (![1](../1.png)) kann eine beliebige URL eingegeben werden, um den Inhalt einer anderen Seite, z. B. eine Visualisierungsseite von Wiser for KNX, im Dashboard anzuzeigen. Sie können weitere URLs hinzufügen, indem Sie auf den grünen + Button (![2](../2.png)) klicken. Wenn Sie die Option "**Show navigation button**" (![3](../3.png)) aktivieren, werden im Dashboard zwei Schaltflächen mit Pfeilen nach links und rechts angezeigt, mit denen Sie durch die verschiedenen Seiten navigieren können. Sie können eine URL löschen, indem Sie auf den Papierkorb Button (![4](../4.png)) klicken.
 
 {{< image src="select-content-url.png" alt="Inhalt URL auswählen" title="Inhalt URL auswählen" >}}
-
+\
+\
+\
 Sobald alle Parameter konfiguriert sind, kann das Dashboard durch Klicken auf die Schaltfläche "**Dashboard speichern**" gespeichert werden.
 
 ## Dashboard löschen

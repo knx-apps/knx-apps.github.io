@@ -7,14 +7,14 @@ bookCollapseSection: false
 # Erste Schritte
 
 ## Zusammenfassung
-Mit der Energy Dashboard-App können Dashboards zur grafischen Darstellung von Energieflüssen und -verbrauch erstellt werden.
-Ein Dashboard besteht aus mehreren Widgets. Jedes Widget enthält Anzeigeinformationen in Form von Diagrammen, Energieflüssen, Messanzeigen oder anderen HTML-Seiten.
+Mit der Energy Dashboard-App können Dashboards zur grafischen Darstellung von Energieflüssen und Energieverbräuchen erstellt werden.
+Ein Dashboard besteht aus mehreren Widgets. Jedes Widget enthält Anzeigeinformationen in Form von Charts, Gauges, Energyflows oder anderen HTML-Seiten.
 
 Anbei ein Beispiel, wie ein fertiges Dashboard aussehen könnte.
 
 {{< image src="dashboard.png" alt="Dashboard" title="Dashboard" >}}
 
-## Using the Energy Dashboard app
+## Verwendung der Energy Dashboard app
 
 ### 1. Klicken Sie auf die Energy Dashboard-App auf dem Startbildschirm des Wiser for KNX / spaceLYnk-Controllers. (![1](../1.png)).
 {{< image src="start-dashboard.png" alt="Start Dashboard" title="Start Dashboard" >}}
