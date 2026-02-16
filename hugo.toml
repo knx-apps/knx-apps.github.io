@@ -1,6 +1,6 @@
 baseURL = 'https://knx-apps.github.io/'
 languageCode = 'en-us'
-title = 'Wiser for KNX Apps'
+title = 'KNX Apps Wiki'
 theme = "hugo-book"
 
 [params]

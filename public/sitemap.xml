@@ -18,12 +18,8 @@
   </url><url>
     <loc>http://localhost:1313/dashboard/</loc>
   </url><url>
-    <loc>http://localhost:1313/medioptcare/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-  </url><url>
-    <loc>http://localhost:1313/medioptcare/uebersicht/</loc>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
   </url>
 </urlset>

@@ -1,6 +1,6 @@
 {
-  "name": "Wiser for KNX Apps",
-  "short_name": "Wiser for KNX Apps",
+  "name": "KNX Apps Wiki",
+  "short_name": "KNX Apps Wiki",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
