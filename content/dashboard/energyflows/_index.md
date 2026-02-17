@@ -85,15 +85,15 @@ Legt die Rahmendicke der Kreise und die Dicke aller Linien fest.
 
 #### Position
 Gibt die Position des ersten Kreises an. Folgende Positionen sind verfügbar:  
-`0`: links - oben  
-`1`: Mitte - oben  
-`2`: rechts - oben  
-`3`: links - Mitte  
-`4`: Mitte – Mitte  
-`5`: Mitte - rechts  
-`6`: links - unten  
-`7`: Mitte – unten  
-`8`: rechts - unten  
+* `0`: links - oben
+* `1`: Mitte - oben
+* `2`: rechts - oben
+* `3`: links - Mitte
+* `4`: Mitte – Mitte
+* `5`: Mitte - rechts
+* `6`: links - unte 
+* `7`: Mitte – unten
+* `8`: rechts - unten
 
 #### Offset Postion X
 Dieser Wert wird zur X-Koordinate der ausgewählten Position addiert.

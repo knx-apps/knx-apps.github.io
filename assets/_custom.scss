@@ -28,6 +28,15 @@ h2, h3, h4 {
     color: var(--color-link) !important;
 }
 
+h5 {
+    font-weight: bold !important;
+    color: var(--color-link) !important;
+}
+
+h6 {
+    color: var(--color-link) !important;
+}
+
 .book-brand a {
     color: #000000;
 }

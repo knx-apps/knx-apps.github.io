@@ -39,269 +39,272 @@ Klicken Sie hier, um ein zuvor exportiertes Chart erneut zu importieren. Dem Nam
 
 ### General
 #### Chart Type
-Here you can select the type of chart. There are currently four different chart types: Donut, Pie, Bar, Horizontal bar
+Hier können Sie den Diagrammtyp auswählen. Derzeit stehen vier verschiedene Diagrammtypen zur Verfügung:
+* `Donut`
+* `Torten`
+* `Balken`
+* `Balken horizontal`
 
-You can switch between donut and pie charts, as well as between bar and horizontal bar charts, at any time without losing the settings you have already made.
-If you switch from Donut/Pie to Bar/Bar Horizontal, all data points that have already been assigned will be deleted.
+Sie können jederzeit zwischen Donut- und Tortendiagrammen, sowie zwischen Balken- und horizontalen Balkendiagrammen wechseln, ohne dass Ihre bereits vorgenommenen Einstellungen verloren gehen.  
+Wenn Sie von Donut/Torten zu Balken/horizontal wechseln, werden alle bereits zugewiesenen Datenpunkte gelöscht.
 
 #### Aspect Ratio
-This allows you to adjust the aspect ratio of the chart so that the widget fills the dashboard as effectively as possible.
+Dadurch können Sie das Seitenverhältnis des Diagramms so anpassen, dass das Diagramm das Widget so effektiv wie möglich ausfüllt.
 
 #### CSS Padding
-The CSS padding property allows the chart to be better fitted into a widget, specifying the distance to the edge. Between 1 and 4 values can be specified.
+Mit der CSS-Eigenschaft `padding` lässt sich das Diagramm besser in ein Widget einpassen, indem der Abstand zum Rand festgelegt wird. Es können zwischen 1 und 4 Werte angegeben werden.
 
 #### Cutout (only Donut chart)
-Only available for donut charts, this specifies the size of the section in the middle as a percentage. Values between 0.1 and 99 are possible.
+Nur für Donut-Diagramme verfügbar. Hiermit wird die Größe des Ausschnitts in der Mitte als Prozentsatz angegeben. Mögliche Werte liegen zwischen 0,1 und 99.
 
 #### Backgroundcolor
-Specifies the background color of the chart.
+Legt die Hintergrundfarbe des Diagramms fest.
 
 #### Set Backgroundcolor transparent
-Selecting this option makes the background of the chart completely transparent.
+Durch Auswahl dieser Option wird der Hintergrund des Diagramms vollständig transparent.
 
 ### Dataset
 #### Donut / Pie Chart
-Only one data set is available for the individual data points.
+Für die einzelnen Datenpunkte steht nur ein Datensatz zur Verfügung.
 
 #### Bar / Bar horinzontal
-Several data sets are available, each with multiple data points.
-If, for example, a comparison between two time periods (yesterday and today) is to be displayed, a separate data set is used for each time period.
+Es stehen mehrere Datensätze mit jeweils mehreren Datenpunkten zur Verfügung. Wenn beispielsweise ein Vergleich zwischen zwei Zeiträumen (gestern und heute) angezeigt werden soll, wird für jeden Zeitraum ein separater Datensatz verwendet.
 
 ### Datapoint
 #### Donut / Pie Chart
 ##### Datapoint
-The value of the KNX data point selected here is used to display it in the diagram.
+Der Wert des hier ausgewählten KNX-Datenpunkts wird zur Anzeige im Diagramm verwendet.
 
 ##### Legend
-Labeling of the data point in the legend and the tooltip window.
+Beschriftung des Datenpunkts in der Legende und im Tooltip-Fenster.
 
 ##### Backgroundcolor
-Color as the data point should be displayed in the chart.
+Farbe als Datenpunkt sollte im Diagramm angezeigt werden.
 
 ##### Border Width
-Border width of the data point in the diagram.
+Randbreite des Datenpunkts im Diagramm.
 
 ##### Bordercolor
-Border Color how the data point is displayed in the chart.
+Rahmenfarbe des Datenpunkt im Diagramm.
 
 #### Bar / Bar horinzontal
 ##### Datapoint
-The value of the KNX data point selected here is used to display it in the diagram.
-If "Trend log" is selected as the data point, the value of a trend recording can be displayed in the diagram.
+Der Wert des hier ausgewählten KNX-Datenpunkts wird zur Anzeige im Diagramm verwendet.  
+Wenn „Trendprotokoll“ als Datenpunkt ausgewählt ist, kann der Wert einer Trendaufzeichnung im Diagramm angezeigt werden.
 
 ##### Trend log (only available if Trend log is selected as the data point)
-Specifies the trend record from which the value is to be displayed.
-The trend may only contain absolute counter values, i.e. values that always increase, in order for the calculation to work correctly.
+Gibt den Trenddatensatz an, aus dem der Wert angezeigt werden soll.  
+Der Trend darf nur absolute Zählerwerte enthalten, d. h. Werte, die immer ansteigen, damit die Berechnung korrekt funktioniert.
 
 ##### Mode (only available if Trend log is selected as the data point)
-Specifies the default unit to be used when the chart is first called up.
+Legt die Standardeinheit fest, die beim ersten Aufruf des Diagramms verwendet werden soll.
 
 ##### Show data from x days / weeks / months / years (only available if Trend log is selected as the data point)
-Specifies the number of values to be displayed depending on the selected mode.
+Gibt die Anzahl der anzuzeigenden Werte in Abhängigkeit vom ausgewählten Modus an.
 
 ##### Offset (only available if Trend log is selected as the data point)
-This value is added to the current date to adjust the start value.
-Values in the past can be displayed by entering negative values.
+Dieser Wert wird zum aktuellen Datum addiert, um den Startwert anzupassen.  
+Werte in der Vergangenheit können durch Eingabe negativer Werte angezeigt werden.
 
 ##### Value Multiplier (only available if Trend log is selected as the data point)
-The result retrieved from the trend recording is multiplied by this factor in order to adjust the final result (e.g. Wh to kWh).
+Das aus der Trendaufzeichnung gewonnene Ergebnis wird mit diesem Faktor multipliziert, um das Endergebnis anzupassen (z. B. Wh zu kWh).
 
 ##### Legend
-Each data point in the first data set has a legend, which is displayed below or next to the individual bars. This entry is also used as the title in the tooltip.
-If a KNX group address is specified as text, the value of this group address is displayed as text.
+Jeder Datenpunkt im ersten Datensatz verfügt über eine Legende, die unterhalb oder neben den einzelnen Balken angezeigt wird. Dieser Eintrag wird auch als Titel im Tooltip verwendet.  
+Wenn eine KNX-Gruppenadresse als Text angegeben ist, wird der Wert dieser Gruppenadresse als Text angezeigt.
 
 ##### Label
-The first data point of each data set is used in the legend and tooltip to label the individual data sets.
+Der erste Datenpunkt jedes Datensatzes wird in der Legende und im Tooltip verwendet, um die einzelnen Datensätze zu beschriften.
 
 ##### Backgroundcolor
-Color as the data point should be displayed in the chart.
+Farbe wie der Datenpunkt im Diagramm angezeigt werden soll.
 
 ##### Border Width
-Border width of the data point in the diagram.
+Randbreite des Datenpunkts im Diagramm.
 
 ##### Bordercolor
-Border Color how the data point is displayed in the chart.
+Rahmenfarbe wie der Datenpunkt im Diagramm angezeigt wird.
 
 ### Coordinate system (only Bar chart)
 #### Stacked axies
-This displays the data points of the individual datasets on top of each other instead of side by side.
+Dadurch werden die Datenpunkte der einzelnen Datensätze übereinander statt nebeneinander angezeigt.
 
 #### Color X/Y Axis
-Specifies the color of the coordinate system.
+Legt die Farbe des Koordinatensystems fest.
 
 #### Color Scale Y-Axis
-Specifies the color of the Y-axis label.
+Legt die Farbe der Beschriftung der Y-Achse fest.
 
 #### Fontweight
-Specifies the font weight of the Y-axis.
+Legt die Schriftstärke der Beschriftung der Y-Achse fest.
 
 #### Size
-Specifies the font size of the Y-axis.
+Legt die Schriftgröße der Beschriftung der Y-Achse fest.
 
 #### Show Title Y-Axis
-If this option is set, a label can be displayed on the Y-axis.
+Wenn diese Option aktiviert ist, kann auf der Y-Achse eine Beschriftung angezeigt werden.
 
 ##### Text
-Text to be displayed as the label for the Y-axis.
+Text, der als Beschriftung für die Y-Achse angezeigt werden soll.
 
 ##### Color
-Text color of the Y-axis label.
+Textfarbe der Beschriftung der Y-Achse.
 
 ##### Fontweight
-Fontweight of the Y-axis labeling.
+Schriftstärke der Beschriftung der Y-Achse.
 
 ##### Size
-Font size of the Y-axis label.
+Schriftgröße der Beschriftung der Y-Achse.
 
 #### Color Scale X-Axis
-Specifies the color of the X-axis label.
+Legt die Farbe der Beschriftung der X-Achse fest.
 
 #### Fontweight
-Specifies the font weight of the X-axis.
+Legt die Schriftstärke der Beschriftung der X-Achse fest.
 
 #### Size
-Specifies the font size of the X-axis.
+Legt die Schriftgröße der Beschriftung der X-Achse fest.
 
 #### Show Title X-Axis
-If this option is set, a label can be displayed on the X-axis.
+Wenn diese Option aktiviert ist, kann auf der X-Achse eine Beschriftung angezeigt werden.
 
 ##### Text
-Text to be displayed as the label for the X-axis.
+Text, der als Beschriftung für die X-Achse angezeigt werden soll.
 
 ##### Color
-Text color of the X-axis label.
+Textfarbe der Beschriftung der X-Achse.
 
 ##### Fontweight
-Fontweight of the X-axis labeling.
+Schriftstärke der Beschriftung der X-Achse.
 
 ##### Size
-Font size of the X-axis label.
+Schriftgröße der Beschriftung der X-Achse.
 
 ### Tooltip
 #### Show
-By setting this option, a window with the current value is displayed when you click on an element of the diagram.
+Wenn Sie diese Option aktivieren, wird beim Klicken auf ein Element des Diagramms ein Fenster mit dem aktuellen Wert angezeigt.
 
 #### Display all data points of the data set
-All data points are displayed one below the other.
+Alle Datenpunkte werden untereinander angezeigt.
 
 #### Display legend value
-In addition to the value, the label text is also displayed for better classification.
+Zusätzlich zum Wert wird zur besseren Zuordnung auch der Legendentext angezeigt.
 
 #### Hide zero values
-If a value is 0, the corresponding entry in the legend is also not displayed.
+Wenn ein Wert 0 ist, wird der entsprechende Eintrag in der Legende ebenfalls nicht angezeigt.
 
 #### Display sum of all data set values
-If all values are displayed, this option can also be used to calculate and display the sum of all individual values.
+Wenn alle Werte angezeigt werden, kann diese Option verwendet werden, um die Summe aller Einzelwerte zu berechnen und anzuzeigen.
 
 #### Text before sum
-A freely definable text can be displayed before the calculated total.
+Vor der berechneten Summe kann ein frei definierbarer Text angezeigt werden.
 
 #### Title
 ##### Color
-Text colour of the title in the tooltip.
+Textfarbe des Titels im Tooltip.
 
 ##### Fontweight
-Font weight of the title in the tooltip.
+Schriftstärke des Titels im Tooltip.
 
 ##### Size
-Font size of the title in the tooltip.
+Schriftgröße des Titels im Tooltip.
 
 #### Body
 ##### Color
-Text colour of the body in the tooltip.
+Textfarbe des Body im Tooltip.
 
 ##### Fontweight
-Font weight of the body in the tooltip.
+Schriftstärke des Body im Tooltip.
 
 ##### Size
-Font size of the body in the tooltip.
+Schriftgröße des Body im Tooltip.
 
 #### Footer
 ##### Color
-Text colour of the footer in the tooltip.
+Textfarbe der Fußzeile im Tooltip.
 
 ##### Fontweight
-Font weight of the footer in the tooltip.
+Schriftstärke der Fußzeile im Tooltip.
 
 ##### Size
-Font size of the footer in the tooltip.
+Schriftgröße der Fußzeile im Tooltip.
 
 ### Title
 #### Show
-This option allows a title to be displayed above the chart.
+Mit dieser Option kann ein Titel über dem Diagramm angezeigt werden.
 
 #### Text
-The text to be displayed as the title above the diagram.
+Der Text, der als Titel über dem Diagramm angezeigt werden soll.
 
 #### Color
-The font colour of the title displayed above the diagram.
+Die Schriftfarbe des Titels, der über dem Diagramm angezeigt wird.
 
 #### Fontweight
-The font weight of the title displayed above the diagram.
+Die Schriftstärke des Titels, der über dem Diagramm angezeigt wird.
 
 #### Size
-The font size of the title displayed above the diagram.
+Die Schriftgröße des Titels, der über dem Diagramm angezeigt wird.
 
 #### Padding Top
-Defines the distance above the title to the top edge of the chart.
+Legt den Abstand zwischen dem Titel und dem oberen Rand des Diagramms fest.
 
 #### Padding Bottom
-Defines the distance below the title to the start of the chart.
+Legt den Abstand unterhalb des Titels bis zum Beginn des Diagramms fest.
 
 ### Legend
 #### Show
-This option allows a legend of the individual diagram elements to be displayed.
+Mit dieser Option kann eine Legende der einzelnen Diagrammelemente angezeigt werden.
 
 #### Position
-Specifies on which side of the diagram the legend should be positioned.
+Gibt an, auf welcher Seite des Diagramms die Legende positioniert werden soll.
 
 #### Color
-Font colour of the legend.
+Schriftfarbe der Legende.
 
 #### Fontweight
-Font weight of the legend.
+Schriftstärke der Legende.
 
 #### Size
-Font weight of the legend.
+Schriftgröße der Legende.
 
 ### Datalabels
 #### Show
-This option displays the value of a chart element directly in the element itself.
+Diese Option zeigt den Wert eines Diagrammelements direkt im Element selbst an.
 
 #### Textcolor
-Font colour of the data label text.
+Schriftfarbe der Beschriftung im Diagrammelement.
 
 #### Fontsize
-Font colour of the data label text.
+Schriftgröße der Beschriftung im Diagrammelement.
 
 #### Fontweight
-Font weight of the data label text.
+Schriftstärke der Beschriftung im Diagrammelement.
 
 #### Unit
-The value unit consists of a freely defined text that is displayed after the actual value. This unit is also used in the tooltip.
+Die Werteeinheit besteht aus einem frei definierten Text, der hinter dem aktuellen Wert angezeigt wird. Diese Einheit wird auch im Tooltip verwendet.
 
 #### Decimal Places
-Specifies how many decimal places the value should be displayed with. Also used in the tooltip.
+Gibt an, mit wie vielen Dezimalstellen der Wert angezeigt werden soll. Wird auch im Tooltip verwendet.
 
 #### Remove values smaller than
-If the value is smaller than the value defined here, the data label is not displayed. This means that for small values, where the chart element is very narrow, the data label values can be hidden accordingly.
+Wenn der Wert kleiner als der hier definierte Wert ist, wird die Beschriftung nicht angezeigt. Das bedeutet, dass bei kleinen Werten, bei denen das Diagrammelement sehr schmal ist, die Werte der Beschriftung entsprechend ausgeblendet werden können.
 
 ### Date selection Trend log (only Bar chart)
 #### Show
-If this option is set, a button is displayed in the chart that can be used to manually adjust the displayed time range.
+Wenn diese Option aktiviert ist, wird im Diagramm ein Button angezeigt, mit der der angezeigte Zeitbereich manuell angepasst werden kann.
 
 #### Position
-Specifies the position of the button used to make manual time selections.
+Gibt die Position des Buttons an, mit dem die manuelle Zeitauswahlen vorgenommen werden kann.
 
 #### Offset top / bottom
-Specifies a distance from the edge of the chart. Depending on the selected position, this can be from the top or bottom edge.
+Gibt den Abstand vom Rand des Diagramms an. Je nach ausgewählter Position kann dies vom oberen oder unteren Rand sein.
 
 #### Offset right / left
-Specifies a distance from the edge of the chart. Depending on the selected position, this can be from the right or left edge.
+Gibt den Abstand vom Rand des Diagramms an. Je nach ausgewählter Position kann dies vom rechten oder linken Rand sein.
 \
 \
 \
-Sobald alle Parameter konfiguriert sind, kann das Diagramm durch Klicken auf die Schaltfläche "**Save Chart**" gespeichert werden.
+Sobald alle Parameter konfiguriert sind, kann das Diagramm durch Klicken auf den Button "**Save Chart**" gespeichert werden.
 
 ## Chart löschen
 Wechseln Sie in den Bearbeitungsmodus, klicken Sie auf den **roten Löschen Button** und bestätigen Sie mit **Ja**.

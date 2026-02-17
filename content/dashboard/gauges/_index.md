@@ -41,8 +41,8 @@ Klicken Sie hier, um ein zuvor exportiertes Gauge erneut zu importieren. Dem Nam
 ### General
 #### Gauge Type
 Sie können zwischen zwei Gauge Typen wählen:  
-`normal`: Das Gauge beginnt beim Mindestwert.  
-`differential`: Das Gauge füllt sich von der Mitte aus.
+* `normal`: Das Gauge beginnt beim Mindestwert.
+* `differential`: Das Gauge füllt sich von der Mitte aus.
 
 #### Min
 Gibt den Mindestwert an.
