@@ -177,7 +177,7 @@ Legt die Hintergrundfarbe des gesamten Energieflusselements fest.
 Durch Auswahl dieser Option wird der Hintergrund des Energieflusses vollständig transparent.
 
 ### Load 01 - 16
-Durch Klicken auf eine der Button mit den Nummern 1 bis 16 kann der aktuellen Last eine untergeordnete Last hinzugefügt werden. Last Nr. 1 befindet sich vertikal nach oben, danach sind die Lasten im Uhrzeigersinn um die Last angeordnet.  
+Durch Klick auf einen der Button mit den Nummern 1 bis 16 kann der aktuellen Last eine untergeordnete Last hinzugefügt werden. Last Nr. 1 befindet sich vertikal nach oben, danach sind die Lasten im Uhrzeigersinn um die Last angeordnet.  
 
 Jede neue Last kann wiederum bis zu 16 untergeordnete Lasten haben, und für jede Last stehen die folgenden Parameter zur Verfügung.  
 
@@ -192,7 +192,7 @@ Das hier ausgewählte Objekt wird verwendet, um die Animation des Punktes zu ber
 `Value > 0`: Der Punkt bewegt sich in die entgegengesetzte Richtung  
 
 #### Zero Offset
-Definiert einen Bereich um den Wert 0 (`Wert` < `0 – Zero Offset` und `Wert > 0 + Zero Offset`), in dem der Punkt ausgeblendet wird.
+Definiert einen Bereich um den Wert 0 (`Wert` < `0 – Zero Offset` und `Wert` > `0 + Zero Offset`), in dem der Punkt ausgeblendet wird.
 
 #### Icon
 Legt das Symbol des Kreises fest.
