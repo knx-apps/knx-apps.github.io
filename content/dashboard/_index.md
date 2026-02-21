@@ -2,6 +2,7 @@
 title: "Dashboard App"
 type: docs
 bookCollapseSection: true
+weight: 1
 ---
 # Dashboard App
 {{< subpages >}}

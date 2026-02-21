@@ -2,7 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/dashboard/</loc>
+  </url><url>
+    <loc>http://localhost:1313/alertmanager/start/</loc>
+  </url><url>
     <loc>http://localhost:1313/dashboard/start/</loc>
+  </url><url>
+    <loc>http://localhost:1313/alertmanager/</loc>
   </url><url>
     <loc>http://localhost:1313/dashboard/dashboards/</loc>
   </url><url>
@@ -15,8 +21,6 @@
     <loc>http://localhost:1313/dashboard/settings/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/dashboard/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
