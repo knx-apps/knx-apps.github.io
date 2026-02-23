@@ -22,13 +22,13 @@ Lua Tabelle, mit welcher das Verhalten jeden einzelnen Datenpunktes angepasst we
 Der Schlüssel jeden einzelnen Tabelleneintrags gibt die Adresse des Objektes an (z.B. **1/1/1**).  
 Als Wert wird jeweils eine Lua Tabelle mit folgenden Werten erwartet. **Jeder Wert ist optional.**
 * `delayoff`  
-Zeit in Sekunden, bis die Störmeldung ausgelöst bzw. zurückgesetzt wird, wenn der Objektwert `false` ist.
+Sekunden, bis die Störmeldung ausgelöst / zurückgesetzt wird, wenn der Objektwert `false` ist.
 * `delayon`  
-Zeit in Sekunden, bis die Störmeldung ausgelöst bzw. zurückgesetzt wird, wenn der Objektwert `true` ist.
+Sekunden, bis die Störmeldung ausgelöst / zurückgesetzt wird, wenn der Objektwert `true` ist.
 * `message`  
-Text, welcher als Störmeldetext angezeigt wird, wird der Wert `message` nicht angegeben, wird standardmäßig der Objektname des Objektes verwendet.
+Text, welcher als Störmeldetext angezeigt wird, wird der Wert `message` nicht angegeben, wird der Objektname des Objektes verwendet.
 * `trigger`  
-Trigger-Wert, bei welchem die Störmeldung, als "*ausgelöst*" angezeigt wird. Wird der Wert `trigger` nicht angegeben, wird der Default Trigger-Wert verwendet. Dieser ist standardmäßig `true`, kann aber auch für die gesamte Störmeldeliste geändert werden.
+Trigger-Wert, bei welchem die Störmeldung, als **ausgelöst** angezeigt wird. Wird der Wert `trigger` nicht angegeben, wird der Default Trigger-Wert verwendet. Dieser ist standardmäßig `true`, kann aber auch für die [gesamte Störmeldeliste](/alertmanager/konfiguration-schreiben/) geändert werden.
 
 ### Callback
 Lua Funktion, welche aufgerufen wird, wenn eine Störmeldung ausgelöst wurde. Der Funktion werden alle aktuellen Werte der Störmeldung übergeben, um nach dem Auslösen weitere Aktionen ausführen zu können.
@@ -45,7 +45,7 @@ callback = function (msg)
   log(msg)
 end
 
-settings['33/1/1'] = {delayoff = 3, message="My Message", trigger = false}
+settings['1/1/1'] = {delayoff = 3, message="My Message", trigger = false}
 
 delayedAlerts(list, tag, settings, callback)
 ```

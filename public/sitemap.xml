@@ -16,7 +16,11 @@
   </url><url>
     <loc>http://localhost:1313/dashboard/charts/</loc>
   </url><url>
+    <loc>http://localhost:1313/alertmanager/quittieren/</loc>
+  </url><url>
     <loc>http://localhost:1313/dashboard/gauges/</loc>
+  </url><url>
+    <loc>http://localhost:1313/alertmanager/konfiguration-schreiben/</loc>
   </url><url>
     <loc>http://localhost:1313/dashboard/energyflows/</loc>
   </url><url>
