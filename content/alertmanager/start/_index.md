@@ -10,7 +10,7 @@ bookCollapseSection: false
 Mit der Alertmanager App können Störmeldungen in einer Liste dargestellt werden. Die zuletzt ausgelöste Meldung, wird in der Liste ganz oben angezeigt. Ausgelöste Meldungen werden mit einem blinkenden {{< badge style="danger" value="roten" >}} Hintergrund dargestellt, über einen Button "Quittieren" kann die Störmeldung **quittiert** werden und der Hintergrund wird {{< badge style="warning" value="orange" >}} dargestellt. Eine quittierte Störmeldung, wird solange in der Liste angezeigt, bis diese behoben wurde und sich der Wert des KNX Datenpunktes ändert.  
 Wenn eine ausgelöste Meldung von selbst wieder zurückgesetzt wird, so wird diese in der Liste mit einem {{< badge style="success" value="grünen" >}} Hintergrund dargestellt. Mit einem Klick auf den quittieren Button verschwindet die Meldung dann aus der Störmeldeliste.
 
-Anbei ein Beispiel, wie ein fertiges Störmeldeliste aussehen könnte.
+Anbei ein Beispiel, wie eine fertige Störmeldeliste aussehen könnte.
 
 {{< image src="list.gif" alt="Dashboard" title="List" >}}
 
@@ -21,7 +21,7 @@ Anbei ein Beispiel, wie ein fertiges Störmeldeliste aussehen könnte.
 
 Standardmäßig wird die Störmeldeliste mit der `ID = 1` aufgerufen, wenn auf das App Icon geklickt wird. Soll eine andere Störmeldeliste aufgerufen werden, so muss die URL mit dem Parameter `list` aufgerufen werden. `http://<ip>/apps/data/alertmanager/?list=2`
 
-### 2. Mindestkonfiguration
+### 2. Grundkonfiguration
 Für jede Störmeldeliste muss ein eigenes **zyklisches Skript** angelegt werden, mit einer **Standby Zeit** von **0 Sekunden**. Jede Störmeldeliste bekommt eine eigene ID `1`, sowie einen Tag `sm`. Alle Objekte, welchen dieser Tag zugeordnet ist, werden in der Störmeldeliste angezeigt.  
 Alle Konfigurationsmöglichkeiten sind im Abschnitt [Konfiguration](/alertmanager/konfiguration/) zu finden.
 

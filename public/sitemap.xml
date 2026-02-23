@@ -12,6 +12,8 @@
   </url><url>
     <loc>http://localhost:1313/dashboard/dashboards/</loc>
   </url><url>
+    <loc>http://localhost:1313/alertmanager/konfiguration/</loc>
+  </url><url>
     <loc>http://localhost:1313/dashboard/charts/</loc>
   </url><url>
     <loc>http://localhost:1313/dashboard/gauges/</loc>
