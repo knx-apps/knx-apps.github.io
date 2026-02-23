@@ -31,7 +31,7 @@ Text, welcher als Störmeldetext angezeigt wird, wird der Wert `message` nicht a
 Trigger-Wert, bei welchem die Störmeldung, als "*ausgelöst*" angezeigt wird. Wird der Wert `trigger` nicht angegeben, wird der Default Trigger-Wert verwendet. Dieser ist standardmäßig `true`, kann aber auch für die gesamte Störmeldeliste geändert werden.
 
 ### Callback
-Lua Funktion, welche aufgerufen wird, wenn eine Störmeldung ausgelöst wurde. Der Funktion werden alle aktuellen Werte der Störmeldung übergeben, um nach dem Auslösen weiter Aktionen ausführen zu können.
+Lua Funktion, welche aufgerufen wird, wenn eine Störmeldung ausgelöst wurde. Der Funktion werden alle aktuellen Werte der Störmeldung übergeben, um nach dem Auslösen weitere Aktionen ausführen zu können.
 
 ## Beispiel
 ```lua
