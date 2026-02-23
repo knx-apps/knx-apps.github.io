@@ -24,7 +24,7 @@ Als Wert wird jeweils eine Lua Tabelle mit folgenden Werten erwartet. **Jeder We
 * `delayoff`  
 Zeit in Sekunden, wie lange das Objekt dem Trigger-Wert entsprechen muss, bis die Störmeldung ausgelöst wird.
 * `delayon`  
-Zeit in Sekunden, wie lange das Objekt nicht dem Trigger-Wert entpsrechen muss, bis die Störmeldung zurückgesetzt wird.
+Zeit in Sekunden, wie lange das Objekt nicht dem Trigger-Wert entsprechen muss, bis die Störmeldung zurückgesetzt wird.
 * `message`  
 Text, welcher als Störmeldetext angezeigt wird, wird der Wert `message` nicht angegeben, wird standardmäßig der Objektname des Objektes verwendet.
 * `trigger`  
