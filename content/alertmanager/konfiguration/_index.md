@@ -9,7 +9,7 @@ bookCollapseSection: false
 Für jede Störmeldeliste muss ein eigenes **zyklisches Skript** angelegt werden, mit einer **Standby Zeit** von **0 Sekunden**. Mit der `delayedAlerts` Funktion können Störmeldungen in einem zyklischen Skript ausggelöst werden:
 
 ## delayedAlerts(list, tag [, settings [, callback]])
-Erzeugt eine neue Störmeldeliste mit der Nummer `list`. Alle Objekte, welchen der Tag `tag` zugeordnet ist, werden in der Störmeldeliste angezeigt. Aktuell werden nur boolsche Datenpunkte unterstützt bzw. alle Werte, werden in einen Boolean konvertiert. Standardmäßig gilt eine Störmeldung als "**ausgelöst**", wenn diese den Wert `true` besitzt. Der Auslösewert / Trigger-Wert kann entweder [global](/alertmanager/konfiguration-schreiben/), für die gesamte Störmeldeliste geändert werden, oder über die `settings` Tabelle für jeden einzelnen Datenpunkt.  
+Erzeugt eine neue Störmeldeliste mit der Nummer `list`. Alle Objekte, welchen der Tag `tag` zugeordnet ist, werden in der Störmeldeliste angezeigt. Aktuell werden nur boolsche Datenpunkte unterstützt bzw. alle Werte, werden in einen Boolean konvertiert. Standardmäßig gilt eine Störmeldung als **ausgelöst**, wenn diese den Wert `true` besitzt. Der Auslösewert / Trigger-Wert kann entweder [global](/alertmanager/konfiguration-schreiben/), für die gesamte Störmeldeliste geändert werden, oder über die `settings` Tabelle für jeden einzelnen Datenpunkt.  
 
 ### List
 Listennummer, mit welcher auf die Störmeldeliste zugegriffen werden kann.
@@ -22,9 +22,9 @@ Lua Tabelle, mit welcher das Verhalten jeden einzelnen Datenpunktes angepasst we
 Der Schlüssel jeden einzelnen Tabelleneintrags gibt die Adresse des Objektes an (z.B. **1/1/1**).  
 Als Wert wird jeweils eine Lua Tabelle mit folgenden Werten erwartet. **Jeder Wert ist optional.**
 * `delayoff`  
-Zeit in Sekunden, wie lange das Objekt dem Trigger-Wert entsprechen muss, bis die Störmeldung ausgelöst wird.
+Zeit in Sekunden, bis die Störmeldung ausgelöst bzw. zurückgesetzt wird, wenn der Objektwert `false` ist.
 * `delayon`  
-Zeit in Sekunden, wie lange das Objekt nicht dem Trigger-Wert entsprechen muss, bis die Störmeldung zurückgesetzt wird.
+Zeit in Sekunden, bis die Störmeldung ausgelöst bzw. zurückgesetzt wird, wenn der Objektwert `true` ist.
 * `message`  
 Text, welcher als Störmeldetext angezeigt wird, wird der Wert `message` nicht angegeben, wird standardmäßig der Objektname des Objektes verwendet.
 * `trigger`  

@@ -14,10 +14,10 @@ Die Funktion muss nur **einmalig** aufgerufen werden.
 
 ## Konfigurationsparameter "config" Tabelle
 ### defaulttriggervalue
-Gibt den Standardwert an, bei welchem die Störmeldung als "**ausgelöst**" angezeigt werden soll. `true` oder `false`. Der Standardwert ist: `true`.
+Gibt den Standardwert an, bei welchem die Störmeldung als **ausgelöst** angezeigt werden soll. `true` oder `false`. Der Standardwert ist: `true`.
 
 ## Beispiel
-Das Nachfolgende Beispiel setzt den Standard Trigger-Wert auf `false`, somit werden alle Meldungen, welche einen Werte Wechsel, von `true` nach `false` haben, als "**ausgelöst**" angezeigt.
+Das Nachfolgende Beispiel setzt den Standard Trigger-Wert auf `false`, somit werden alle Meldungen, welche einen Werte Wechsel, von `true` nach `false` haben, als **ausgelöst** angezeigt.
 ```lua
 require('applibs.alertmanager.functions')
 
