@@ -29,6 +29,9 @@ Beschriftung der zweiten Spalte, in welcher die eigentliche Störmeldung angezei
 #### ackbutton
 Beschriftung des quttieren Buttons.
 
+#### title
+Beschriftung des Titel des Browserfensters.
+
 #### noalerts
 Wenn keine Störmeldungen vorhanden sind, wird diese Meldung angezeigt.
 
@@ -44,6 +47,7 @@ config = {
                         ["headercolumn1"] = "Zeit",
                         ["headercolumn2"] = "Meldung",
                         ["ackbutton"]     = "Quittieren",
+                        ["title"]         = "Störmeldungen",
                         ["noalerts"]      = "Keine Störmeldungen vorhanden",
   }
 }
