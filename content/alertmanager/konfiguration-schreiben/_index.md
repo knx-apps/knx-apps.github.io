@@ -24,7 +24,7 @@ Folgende Einträge stehen zur Verfügung:
 Beschriftung der ersten Spalte, in welcher das Datum und die Uhrzeit zu der die Störmeldung ausgelöst wurde angezeigt wird.
 
 #### headercolumn2
-Beschriftung der zweiten Spalte, in welcher eigentliche Störmeldung angezeigt wird.
+Beschriftung der zweiten Spalte, in welcher die eigentliche Störmeldung angezeigt wird.
 
 #### ackbutton
 Beschriftung des quttieren Buttons.
