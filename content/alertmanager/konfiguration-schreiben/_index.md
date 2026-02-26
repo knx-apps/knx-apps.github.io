@@ -16,6 +16,22 @@ Die Funktion muss nur **einmalig** aufgerufen werden.
 ### defaulttriggervalue
 Gibt den Standardwert an, bei welchem die Störmeldung als **ausgelöst** angezeigt werden soll. `true` oder `false`. Der Standardwert ist: `true`.
 
+### translation
+Hier kann eine Übersetzung der Beschriftung innerhalb der App angegeben werden.  
+Folgende Einträge stehen zur Verfügung:
+
+#### headercolumn1
+Beschriftung der ersten Spalte, in welcher das Datum und die Uhrzeit zu der die Störmeldung ausgelöst wurde angezeigt wird.
+
+#### headercolumn2
+Beschriftung der zweiten Spalte, in welcher eigentliche Störmeldung angezeigt wird.
+
+#### ackbutton
+Beschriftung des quttieren Buttons.
+
+### noalerts
+Wenn keine Störmeldungen vorhanden sind, wird diese Meldung angezeigt.
+
 ## Beispiel
 Das Nachfolgende Beispiel setzt den Standard Trigger-Wert auf `false`, somit werden alle Meldungen, welche einen Werte Wechsel, von `true` nach `false` haben, als **ausgelöst** angezeigt.
 ```lua
@@ -23,7 +39,13 @@ require('applibs.alertmanager.functions')
 
 list = 1
 config = {
-  ["defaulttriggervalue"] = false
+  ["defaulttriggervalue"] = false,
+  ["translation"] = {
+                        ["headercolumn1"] = "Zeit",
+                        ["headercolumn2"] = "Meldung",
+                        ["ackbutton"]     = "Quittieren",
+                        ["noalerts"]      = "Keine Störmeldungen vorhanden",
+  }
 }
 
 setConfig(list, config)

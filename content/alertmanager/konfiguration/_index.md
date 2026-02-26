@@ -26,7 +26,7 @@ Sekunden, bis die Störmeldung ausgelöst / zurückgesetzt wird, wenn der Objekt
 * `delayon`  
 Sekunden, bis die Störmeldung ausgelöst / zurückgesetzt wird, wenn der Objektwert `true` ist.
 * `message`  
-Text, welcher als Störmeldetext angezeigt wird, wird der Wert `message` nicht angegeben, wird der Objektname des Objektes verwendet.
+Text, welcher als Störmeldetext angezeigt wird, wird der Wert `message` nicht angegeben, wird falls gesetzt das Kommentarfeld des Objektes verwendet. Falls das Kommentarfeld des Objektes leer ist, wird der Objektname des Objektes verwendet.
 * `trigger`  
 Trigger-Wert, bei welchem die Störmeldung, als **ausgelöst** angezeigt wird. Wird der Wert `trigger` nicht angegeben, wird der Default Trigger-Wert verwendet. Dieser ist standardmäßig `true`, kann aber auch für die [gesamte Störmeldeliste](/alertmanager/konfiguration-schreiben/) geändert werden.
 
