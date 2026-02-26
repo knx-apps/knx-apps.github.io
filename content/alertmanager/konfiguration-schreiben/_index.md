@@ -29,7 +29,7 @@ Beschriftung der zweiten Spalte, in welcher eigentliche Störmeldung angezeigt w
 #### ackbutton
 Beschriftung des quttieren Buttons.
 
-### noalerts
+#### noalerts
 Wenn keine Störmeldungen vorhanden sind, wird diese Meldung angezeigt.
 
 ## Beispiel
