@@ -1,7 +1,7 @@
 ---
 title: "Konfiguration überschreiben"
 type: docs
-weight: 4
+weight: 5
 bookCollapseSection: false
 ---
 # Konfiguration überschreiben
@@ -14,7 +14,10 @@ Die Funktion muss nur **einmalig** aufgerufen werden.
 
 ## Konfigurationsparameter "config" Tabelle
 ### defaulttriggervalue
-Gibt den Standardwert an, bei welchem die Störmeldung als **ausgelöst** angezeigt werden soll. `true` oder `false`. Der Standardwert ist: `true`.
+Gibt den Standardwert an, bei welchem die Störmeldung als **ausgelöst** angezeigt werden soll `true` oder `false`. Der Standardwert ist: `true`.
+
+### showhistory
+Gibt an, ob jede Wertänderung der einzelnen Störmeldungen protokolliert werden soll `true` oder `false`. Der Standardwert ist: `false`.
 
 ### translation
 Hier kann eine Übersetzung der Beschriftung innerhalb der App angegeben werden.  
@@ -35,20 +38,29 @@ Beschriftung des Titel des Browserfensters.
 #### noalerts
 Wenn keine Störmeldungen vorhanden sind, wird diese Meldung angezeigt.
 
+#### historytitle
+Wenn die Speicherung jeder Wertänderung aktiviert wurde, kann in einem Popup Fenster jede Objektänderung betrachtet werden. Mit diesem Parameter kann der Titel dieses Popup Fensters geändert werden.
+
+#### historyclosebtn
+Beschriftung des Schließen Button, welcher im Popup Fenster angezeigt wird, welches die Wertänderungen des Objektes darstellt.
+
 ## Beispiel
-Das Nachfolgende Beispiel setzt den Standard Trigger-Wert auf `false`, somit werden alle Meldungen, welche einen Werte Wechsel, von `true` nach `false` haben, als **ausgelöst** angezeigt.
+Das Nachfolgende Beispiel setzt den Standard Trigger-Wert auf `false`, somit werden alle Meldungen, welche einen Werte Wechsel, von `true` nach `false` haben, als **ausgelöst** angezeigt. Zudem wird die Speicherung jeder Wertänderung mit dem Parameter `showhistory` aktiviert.
 ```lua
 require('applibs.alertmanager.functions')
 
 list = 1
 config = {
   ["defaulttriggervalue"] = false,
+  ["showhistory"] = true,
   ["translation"] = {
-                        ["headercolumn1"] = "Zeit",
-                        ["headercolumn2"] = "Meldung",
-                        ["ackbutton"]     = "Quittieren",
-                        ["title"]         = "Störmeldungen",
-                        ["noalerts"]      = "Keine Störmeldungen vorhanden",
+                        ["headercolumn1"]   = "Zeit",
+                        ["headercolumn2"]   = "Meldung",
+                        ["ackbutton"]       = "Quittieren",
+                        ["title"]           = "Störmeldungen",
+                        ["noalerts"]        = "Keine Störmeldungen vorhanden",
+                        ["historytitle"]    = "Verlauf Störmeldung",
+                        ["historyclosebtn"] = "Schließen",
   }
 }
 
