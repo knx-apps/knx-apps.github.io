@@ -1,7 +1,23 @@
 baseURL = 'https://knx-apps.github.io/'
-languageCode = 'en-us'
+languageCode = 'de-de'
 title = 'KNX Apps Wiki'
 theme = "hugo-book"
+
+defaultContentLanguage = 'de'
+defaultContentLanguageInSubdir = false # 'de' ist unter /, 'en' unter /en/
+
+[languages]
+  [languages.de]
+    languageName = 'Deutsch'
+    languageCode = 'de-de'
+    contentDir = 'content.de' # Optional, aber sehr empfohlen
+    weight = 1
+
+  [languages.en]
+    languageName = 'English'
+    languageCode = 'en-us'
+    contentDir = 'content.en' # Optional, aber sehr empfohlen
+    weight = 2
 
 [params]
   BookSection = "/"
