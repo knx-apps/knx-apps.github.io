@@ -3,4 +3,4 @@ title: "KNX Apps"
 type: docs
 ---
 # KNX Apps Wiki
-In diesem Wiki findet man technische Dokumentationen zu verschiedenen Erweiterungen (Apps), welche für den Logik Controller Wiser for KNX / spaceLYnk von Schneider Electric entwickelt wurden.
+This wiki contains technical documentation on various extensions (apps) developed for the Wiser for KNX / spaceLYnk logic controller from Schneider Electric.
