@@ -23,7 +23,7 @@ Standardmäßig wird die Störmeldeliste mit der `ID = 1` aufgerufen, wenn auf d
 
 ### 2. Grundkonfiguration
 Für jede Störmeldeliste muss ein eigenes **zyklisches Skript** angelegt werden, mit einer **Standby Zeit** von **0 Sekunden**. Jede Störmeldeliste bekommt eine eigene ID `1`, sowie einen Tag `sm`. Alle Objekte, welchen dieser Tag zugeordnet ist, werden in der Störmeldeliste angezeigt.  
-Alle Konfigurationsmöglichkeiten sind im Abschnitt [Konfiguration](/alertmanager/konfiguration/) zu finden.
+Alle Konfigurationsmöglichkeiten sind im Abschnitt [Konfiguration]({{< relref "alertmanager/konfiguration" >}}) zu finden.
 
 ```lua
 require('applibs.alertmanager.functions')

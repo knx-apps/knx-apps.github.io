@@ -9,7 +9,7 @@ bookCollapseSection: false
 Für jede Störmeldeliste muss ein eigenes **zyklisches Skript** angelegt werden, mit einer **Standby Zeit** von **0 Sekunden**. Mit der `delayedAlerts` Funktion können Störmeldungen in einem zyklischen Skript ausggelöst werden:
 
 ## delayedAlerts(list, tag [, settings [, callback]])
-Erzeugt eine neue Störmeldeliste mit der Nummer `list`. Alle Objekte, welchen der Tag `tag` zugeordnet ist, werden in der Störmeldeliste angezeigt. Aktuell werden nur boolsche Datenpunkte unterstützt bzw. alle Werte, werden in einen Boolean konvertiert. Standardmäßig gilt eine Störmeldung als **ausgelöst**, wenn diese den Wert `true` besitzt. Der Auslösewert / Trigger-Wert kann entweder [global](/alertmanager/konfiguration-schreiben/), für die gesamte Störmeldeliste geändert werden, oder über die `settings` Tabelle für jeden einzelnen Datenpunkt.  
+Erzeugt eine neue Störmeldeliste mit der Nummer `list`. Alle Objekte, welchen der Tag `tag` zugeordnet ist, werden in der Störmeldeliste angezeigt. Aktuell werden nur boolsche Datenpunkte unterstützt bzw. alle Werte, werden in einen Boolean konvertiert. Standardmäßig gilt eine Störmeldung als **ausgelöst**, wenn diese den Wert `true` besitzt. Der Auslösewert / Trigger-Wert kann entweder [global]({{< relref "alertmanager/konfiguration-schreiben" >}}), für die gesamte Störmeldeliste geändert werden, oder über die `settings` Tabelle für jeden einzelnen Datenpunkt.  
 
 ### List
 Listennummer, mit welcher auf die Störmeldeliste zugegriffen werden kann.
@@ -28,7 +28,7 @@ Sekunden, bis die Störmeldung ausgelöst / zurückgesetzt wird, wenn der Objekt
 * `message`  
 Text, welcher als Störmeldetext angezeigt wird, wird der Wert `message` nicht angegeben, wird falls gesetzt das Kommentarfeld des Objektes verwendet. Falls das Kommentarfeld des Objektes leer ist, wird der Objektname des Objektes verwendet.
 * `trigger`  
-Trigger-Wert, bei welchem die Störmeldung, als **ausgelöst** angezeigt wird. Wird der Wert `trigger` nicht angegeben, wird der Default Trigger-Wert verwendet. Dieser ist standardmäßig `true`, kann aber auch für die [gesamte Störmeldeliste](/alertmanager/konfiguration-schreiben/) geändert werden.
+Trigger-Wert, bei welchem die Störmeldung, als **ausgelöst** angezeigt wird. Wird der Wert `trigger` nicht angegeben, wird der Default Trigger-Wert verwendet. Dieser ist standardmäßig `true`, kann aber auch für die [gesamte Störmeldeliste]({{< relref "alertmanager/konfiguration-schreiben" >}}) geändert werden.
 
 ### Callback
 Lua Funktion, welche aufgerufen wird, wenn eine Störmeldung ausgelöst wurde. Der Funktion werden alle aktuellen Werte der Störmeldung übergeben, um nach dem Auslösen weitere Aktionen ausführen zu können.
