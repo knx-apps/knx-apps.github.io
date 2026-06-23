@@ -105,13 +105,13 @@ Wenn der Wert für "**Max column**" in unserem Beispiel nun von 12 auf 11 reduzi
 
 ###### **Appearance**
 
-Wenn "**Default settings**" ausgewählt ist, werden die globalen Designeinstellungen von der Seite "**Settings**" angewendet. Wenn "**Custom settings**" ausgewählt ist, wird das Erscheinungsbild dieses Dashboards überschrieben. Eine detaillierte Beschreibung der einzelnen Parameter finden Sie in der Beschreibung der globalen Parameter auf der Seite [Settings](/dashboard/settings/).
+Wenn "**Default settings**" ausgewählt ist, werden die globalen Designeinstellungen von der Seite "**Settings**" angewendet. Wenn "**Custom settings**" ausgewählt ist, wird das Erscheinungsbild dieses Dashboards überschrieben. Eine detaillierte Beschreibung der einzelnen Parameter finden Sie in der Beschreibung der globalen Parameter auf der Seite [Settings]({{< relref "dashboard/settings/" >}}).
 
 ##### ![2](../2.png) Widget Übersicht
 Zeigt die aktuelle Widget-Struktur des Dashboards an. Jedem Widget wird eine eindeutige **Widget-ID** zugewiesen. Die **Widget-ID** kann im nächsten Schritt verwendet werden, um den Inhalt festzulegen, der im Widget angezeigt werden soll.
 
 ##### ![3](../3.png) Inhalt Zuweisung einzelner Widgets
-Für jedes Widget können Sie wählen, ob Sie ein [**Chart**](/dashboard/charts/), [**Gauge**](/dashboard/gauges/), [**Energyflow**](/dashboard/energyflows/) oder eine **URL** als Inhalt anzeigen möchten. Wenn im ersten Auswahlfeld Chart, Gauge oder Energyflow ausgewählt ist, kann das entsprechende Element im zweiten Auswahlfeld ausgewählt werden.
+Für jedes Widget können Sie wählen, ob Sie ein [**Chart**]({{< relref "dashboard/charts/" >}}), [**Gauge**]({{< relref "dashboard/gauges/" >}}), [**Energyflow**]({{< relref "dashboard/energyflows/" >}}) oder eine **URL** als Inhalt anzeigen möchten. Wenn im ersten Auswahlfeld Chart, Gauge oder Energyflow ausgewählt ist, kann das entsprechende Element im zweiten Auswahlfeld ausgewählt werden.
 
 {{< image src="select-content.png" alt="Inhalt auswählen" title="Inhalt auswählen" >}}
 

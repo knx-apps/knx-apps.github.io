@@ -5,7 +5,7 @@ weight: 4
 bookCollapseSection: false
 ---
 # Wertänderungen protokollieren
-Mit dem Parameter [`showhistory`](/alertmanager/konfiguration-schreiben/#showhistory) werden alle Wertänderungen der einzelnen Störmeldungen protokolliert und können in der Störmeldeliste über einen zusätzlichen Button (![1](../1.png)) aufgerufen werden.
+Mit dem Parameter [`showhistory`]({{< relref "alertmanager/konfiguration-schreiben/#showhistory" >}}) werden alle Wertänderungen der einzelnen Störmeldungen protokolliert und können in der Störmeldeliste über einen zusätzlichen Button (![1](../1.png)) aufgerufen werden.
 
 {{< image src="history-button.png" alt="History Button" title="History Button" >}}
 

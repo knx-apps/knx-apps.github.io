@@ -34,19 +34,19 @@ Gehen Sie zu **Configurator** → **Benutzerzugang** → **Einstellungen Benutze
 ### 4. Bereiche der Energy Dashboard App
 {{< image src="dashboard-areas.png" alt="Energy Dashboard App Bereiche" title="Energy Dashboard App Bereiche" >}}
 
-#### ![1](../1.png) [Dashboards](/dashboard/dashboards/)
+#### ![1](../1.png) [Dashboards]({{< relref "dashboard/dashboards/" >}})
 Im Bereich **Dashboards** können Sie verschiedene Dashboards erstellen und das Layout der einzelnen Widgets festlegen. Außerdem können Sie hier den Inhalt für jedes einzelne Widget festlegen.
 
-#### ![2](../2.png) [Charts](/dashboard/charts/)
+#### ![2](../2.png) [Charts]({{< relref "dashboard/charts/" >}})
 Die verschiedenen Diagramme werden im Abschnitt **Charts** erstellt. Derzeit können Torten, Donut und Balkendiagramme erstellt werden.
 
-#### ![3](../3.png) [Gauges](/dashboard/gauges/)
+#### ![3](../3.png) [Gauges]({{< relref "dashboard/gauges/" >}})
 Einzelne Messelemente können unter **Gauges** erstellt werden. Ein Messgerät ist ein Zeigerinstrument, das einen Wert in einem Halbkreis anzeigt.
 
-#### ![4](../4.png) [Energyflows](/dashboard/energyflows/)
+#### ![4](../4.png) [Energyflows]({{< relref "dashboard/energyflows/" >}})
 Energieflüsse können verwendet werden, um die Energieverteilung in Gebäuden grafisch darzustellen. Unter **Energyflows** kann eine animierte Grafik erstellt werden, die den aktuellen Energiefluss im Gebäude anzeigt.
 
-#### ![5](../5.png) [Settings](/dashboard/settings/)
+#### ![5](../5.png) [Settings]({{< relref "dashboard/settings/" >}})
 Globale Designeinstellungen für alle Dashboards können im Bereich **Settings** definiert werden. Darüber hinaus kann das Erscheinungsbild der Dashboards mit benutzerdefiniertem JavaScript- und CSS-Code weiter angepasst werden.
 
 #### ![6](../6.png) Close button
