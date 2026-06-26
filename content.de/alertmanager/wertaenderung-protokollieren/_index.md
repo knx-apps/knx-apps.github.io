@@ -9,6 +9,6 @@ Mit dem Parameter [`showhistory`]({{< relref "alertmanager/konfiguration-schreib
 
 {{< image src="history-button.png" alt="History Button" title="History Button" >}}
 
-In einem Popup Fenster kann nun jeder Wert mit einem Zeitstempel eingesehen werden. Bei **nicht booleschen** Datenpunkten wird neben dem Trigger Wert, auch nocht der tatsächliche Wert der Störmeldung angezeigt.
+In einem Popup Fenster kann nun jeder Wert mit einem Zeitstempel eingesehen werden. Bei **nicht booleschen** Datenpunkten wird neben dem Trigger Wert, auch noch der tatsächliche Wert der Störmeldung angezeigt.
 
 {{< image src="history-modal.png" alt="History" title="History" >}}
